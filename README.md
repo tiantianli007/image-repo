@@ -1,10 +1,12 @@
-# Getting Started with Create React App
+# Getting Started with the Image Repository App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was built using a variety of librarys(React, NodeJS) and frameworks(Express, Axios, Multer). I also used MongoDB and AWS S3. I thought it would be easier to store the actual image in an S3 bucket and store the URL's in MongoDB which are used to actually display the images on the React page. The application allows users to upload multiple images at a time.
 
-## Available Scripts
+## How to use it
 
-In the project directory, you can run:
+To run this project by yourself, you just need to create a .env(there is a .env.template file that contains the nessesary fields) in the backend folder. Then you need to run "npm start" in the root directory(image-repo) as well as in the backend folder.
+
+##
 
 ### `npm start`
 
@@ -19,7 +21,7 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### `npm run build
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
